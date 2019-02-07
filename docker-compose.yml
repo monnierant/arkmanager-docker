@@ -1,6 +1,6 @@
 ark:
   container_name: ark
-  image: turzam/ark
+  image: paulknisely/arkmanager-docker
   environment:
     - SESSIONNAME=Ark Docker
     - SERVERMAP=TheIsland
@@ -8,7 +8,7 @@ ark:
     - ADMINPASSWORD=adminpassword
     - BACKUPONSTART=1
     - UPDATEONSTART=1
-    - TZ=Europe/Paris
+    - TZ=America/Chicago
     - GID=1000
     - UID=1000
   volumes:
