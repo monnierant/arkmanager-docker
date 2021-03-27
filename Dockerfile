@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 
-LABEL maintainers="paulknisely"
+LABEL maintainers="monnierant"
 
 # Var for first config
 # Server Name
